@@ -1,5 +1,5 @@
 # NrfProgApi.NetCore
-Basic program to program custom NRF boards using NRF9160 DK board using JLink
+Basic library to program custom NRF boards using JLink of NRF9160 DK board
 
 Devices used:
 1. NRF9160 DK board - For Jlink use to program Custom modem board.
