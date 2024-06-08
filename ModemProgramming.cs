@@ -20,14 +20,14 @@ namespace NrfProgApi
             logCallback = (message) =>
           {
 
-              LogWrite(message);
+              Console.WriteLine(message);
           };
 
             progressCallback = (message) =>
            {
 
                ProgressObject jsonObject = JsonConvert.DeserializeObject<ProgressObject>(message);
-
+               Console.WriteLine(jsonObject);
            };
 
         }
